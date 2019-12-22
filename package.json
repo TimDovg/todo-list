@@ -1,0 +1,19 @@
+{
+  "name": "todo-ha",
+  "version": "1.0.0",
+  "description": "project for Andersen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimDovg/todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimDovg/todo-list/issues"
+  },
+  "homepage": "https://github.com/TimDovg/todo-list#readme"
+}
