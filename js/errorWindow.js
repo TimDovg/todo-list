@@ -19,6 +19,7 @@ template.innerHTML = `
         }
        
         .button {
+            border-radius: 5px;
             cursor: pointer;
             margin-right: 5px;
             margin-top: 5px;

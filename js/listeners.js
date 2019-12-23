@@ -1,9 +1,6 @@
 import Backend from "./backend.js";
-import observer from "./observer.js";
-import renderAlert from "./renderError.js";
-import Store from "./store.js";
+import renderLogin from "./renderLogin.js";
 
-const store = Store.instance;
 const todo = document.getElementsByClassName('todo');
 
 export function setListenersForTodoComponent() {
@@ -126,7 +123,8 @@ export function setListenersForMain() {
     });
 
     logOut.addEventListener('click', () => {
-        alert('no');
+        localStorage.clear();
+        renderLogin();
     });
 
     function sendCreatedTodo() {

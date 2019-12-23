@@ -21,6 +21,7 @@ export default class Backend {
                 if (!response.error) return response;
                 else throw response.error;
             })
+            .catch(err => {throw renderAlert(err)})
     }
 
     static login(userInfo) {
@@ -37,6 +38,7 @@ export default class Backend {
                 if (!response.error) return response;
                 else throw response.error;
             })
+            .catch(err => {throw renderAlert(err)})
     }
 
     static checkAuth() {
